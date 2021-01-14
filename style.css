@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', cursive;
+    margin: 0px;
+}
+
+.btn-primary{
+    color: brown;
+    margin-left: 30rem;
+    font-family: cursive;
+    
+}
+.banana-nav{
+    background-color: yellow;
+    height: 4rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.text-area{
+    height: 6rem;
+    padding: 1rem;
+    margin: 2rem 10rem 1rem 30rem;
+    width: 30rem;
+    border: 1px solid black;
+}
+.output-title{
+    margin-left: 30rem;
+    
+    margin-top: 1rem;
+}
+.footer-banana{
+    height: 5rem;
+    background-color: yellow;
+    padding: 1rem;
+    text-align: center;
+    font-family: cursive;
+    
+}
+.footer-text{
+    text-align: center;
+    margin: 1rem 10rem 3rem 20rem;
+    padding: 0rem 2rem 1rem 2rem;
+    font-family: cursive;
+    
+}

@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Banana</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        #output{
+            height: 5rem;
+            width: 30rem;
+            border: 1px solid black;
+            margin: 2rem 10rem 2rem 30rem;
+            padding: 1rem;
+        }
+        #about{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <title>Bannna</title>
-    <h1>The Banana App</h1>
+    <nav class="banana-nav">
+        <h1>THE BANANA</h1>
+    </nav>
+    <textarea id="txtarea" class="text-area"></textarea>
+    <button class="btn-primary" id="btn-trans">
+        <h3>Translate to Banana</h3>
+    </button>
+    <div class="output-title">Translation will come here 👎</div>
+
+    <div id="output"></div>
+    <footer class="footer-banana">
+        <span id="about">About</span>
+        <div class="footer-text">
+            Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+
 </body>
 </html>
