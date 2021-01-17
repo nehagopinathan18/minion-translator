@@ -9,8 +9,8 @@
         #output{
             height: 5rem;
             width: 30rem;
-            border: 1px solid black;
-            margin: 2rem 10rem 2rem 30rem;
+            border: 1px solid var(--text-border);
+            margin: 2rem 10rem 2rem 27rem;
             padding: 1rem;
         }
         #about{
@@ -20,24 +20,29 @@
     </style>
 </head>
 <body>
+    <!-- nav section -->
     <nav class="banana-nav">
-        <h1>THE BANANA</h1>
+        <h1>THE MINIONS</h1>
     </nav>
+    <!-- minion image -->
+    <img class="img-style"
+    src="https://webstockreview.net/images/minion-clipart-svg-1.jpg"></img>
+    <!-- Input from user -->
     <textarea id="txtarea" class="text-area"></textarea>
+    <!-- button to translate -->
     <button class="btn-primary" id="btn-trans">
-        <h3>Translate to Banana</h3>
+        <h3>Translate</h3>
     </button>
-    <div class="output-title">Translation will come here 👎</div>
-
+    <!-- /<div class="output-title">Translation will come here 👎</div> -->
+    <!-- output section -->
     <div id="output"></div>
+    <!-- footer section -->
     <footer class="footer-banana">
         <span id="about">About</span>
         <div class="footer-text">
             Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
         </div>
     </footer>
-    
     <script src="app.js"></script>
-
 </body>
 </html>

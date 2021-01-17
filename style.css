@@ -1,29 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root{
+    --nav-background:#FCD34D;
+    --text-border: #6B7280;
+}
 body{
     font-family: 'Open Sans', cursive;
     margin: 0px;
 }
 
 .btn-primary{
-    color: brown;
+    background-color: var(--nav-background);
+    color: black;
     margin-left: 30rem;
     font-family: cursive;
-    
+    border: none;
+    border-radius: 6rem;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
 }
+.btn-primary h3 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .btn-primary:hover h3 {
+    padding-right: 25px;
+  }
+  .btn-primary:hover h3:after {
+    opacity: 1;
+    right: 0;
+  }
+.btn-primary h3:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
 .banana-nav{
-    background-color: yellow;
+    background-color: var(--nav-background);
     height: 4rem;
     padding: 1rem;
     text-align: center;
     
 }
+
+.img-style{
+    margin-left: 25rem;
+    margin-right: 20rem;
+    margin-top: 1.5rem;
+}
 .text-area{
     height: 6rem;
     padding: 1rem;
-    margin: 2rem 10rem 1rem 30rem;
+    margin: 2rem 10rem 1rem 27rem;
     width: 30rem;
-    border: 1px solid black;
+    border: 1px solid var(--text-border);
 }
 .output-title{
     margin-left: 30rem;
@@ -32,7 +71,7 @@ body{
 }
 .footer-banana{
     height: 5rem;
-    background-color: yellow;
+    background-color: var(--nav-background);
     padding: 1rem;
     text-align: center;
     font-family: cursive;
